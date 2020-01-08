@@ -1,13 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25a32000-956e-4057-ba78-bf062230bbd1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/numberPlateIdentifier/AgeIdentifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/numberPlateIdentifier/AgeIdentifierIncorrectFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/numberPlateIdentifier/NumberPlateIdentifierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1W75ssvsLsfzTb8TxM2V0qOGtOC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.qa.numberPlateIdentifier" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.NumberPlateIdentifierTest.age_identifier_throws_exception_if_number_greater_than_100">
+    <configuration name="NumberPlateIdentifierTest.age_identifier_throws_exception_if_number_greater_than_100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Number-Plate-Exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.numberPlateIdentifier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.numberPlateIdentifier" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.numberPlateIdentifier.NumberPlateIdentifierTest" />
+      <option name="METHOD_NAME" value="age_identifier_throws_exception_if_number_greater_than_100" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberPlateIdentifierTest.age_identifier_throws_exception_if_number_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Number-Plate-Exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.numberPlateIdentifier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.numberPlateIdentifier" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.numberPlateIdentifier.NumberPlateIdentifierTest" />
+      <option name="METHOD_NAME" value="age_identifier_throws_exception_if_number_invalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NumberPlateIdentifierTest.age_identifier_throws_exception_if_number_greater_than_100" />
+        <item itemvalue="JUnit.NumberPlateIdentifierTest.age_identifier_throws_exception_if_number_invalid" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25a32000-956e-4057-ba78-bf062230bbd1" name="Default Changelist" comment="" />
+      <created>1578488002519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578488002519</updated>
+    </task>
+    <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="445" y="194" key="#com.intellij.ide.util.MemberChooser" timestamp="1578489464863">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="445" y="194" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578489464863" />
+    <state x="370" y="269" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1578489137605">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="370" y="269" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578489137605" />
+    <state x="370" y="240" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578489245389">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="370" y="240" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578489245389" />
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1578489785597">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578489785597" />
+    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1578489785597">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578489785597" />
+    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1578489785597">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578489785597" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1578489785597">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578489785597" />
+    <state x="170" y="148" key="Maven.ArtifactSearchDialog" timestamp="1578489112784">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="170" y="148" key="Maven.ArtifactSearchDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578489112784" />
     <state x="336" y="317" key="com.intellij.ide.util.TipDialog" timestamp="1578488023262">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="336" y="317" key="com.intellij.ide.util.TipDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578488023262" />
+    <state x="411" y="211" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578488328148">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="411" y="211" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578488328148" />
   </component>
 </project>
