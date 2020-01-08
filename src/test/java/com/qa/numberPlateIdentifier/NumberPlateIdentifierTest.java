@@ -34,8 +34,18 @@ public class NumberPlateIdentifierTest {
         //assert
         assertThrows(AgeIdentifierIncorrectFormatException.class, () -> cut.getNextAgeIdentifier(ageIdentifier));
     }
+
     @Test
-    public void age_identifier_changes_from_march_to_september_of_same_year() throws AgeIdentifierIncorrectFormatException {
+    public void age_identifier_throws_exception_if_non_numeric_entered() throws AgeIdentifierIncorrectFormatException {
+        //arrange
+        String ageIdentifier = "f!";
+        AgeIdentifier cut = new AgeIdentifier(ageIdentifier);
+
+        //assert
+        assertThrows(AgeIdentifierIncorrectFormatException.class, () -> cut.getNextAgeIdentifier(ageIdentifier));
+    }
+    @Test
+    public void age_identifier_changes_from_march_to_september() throws AgeIdentifierIncorrectFormatException {
         //arrange
         String ageIdentifier = "02";
         AgeIdentifier cut = new AgeIdentifier(ageIdentifier);

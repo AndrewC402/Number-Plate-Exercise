@@ -10,21 +10,24 @@ public class AgeIdentifier {
     public String getNextAgeIdentifier(String ageIdentifier) throws AgeIdentifierIncorrectFormatException {
         String nextAgeIdentifier = "";
 
-        if (!(ageIdentifier.length() == 2) || Integer.parseInt(ageIdentifier) < 0) {
-            throw new AgeIdentifierIncorrectFormatException("Age identifier must be exactly two digits");
+        if (ageIdentifier.matches("[0-9]+") && ageIdentifier.length() == 2) {
 
-        } else if (Integer.parseInt(ageIdentifier) < 49) {
+            if (Integer.parseInt(ageIdentifier) < 49) {
 
-            int nextAgeIdentifierAsInteger = Integer.parseInt(ageIdentifier) + 50;
-            nextAgeIdentifier = String.valueOf(nextAgeIdentifierAsInteger);
+                int nextAgeIdentifierAsInteger = Integer.parseInt(ageIdentifier) + 50;
+                nextAgeIdentifier = String.valueOf(nextAgeIdentifierAsInteger);
 
-        } else if (Integer.parseInt(ageIdentifier) > 50) {
+            } else if (Integer.parseInt(ageIdentifier) > 50) {
 
-            int nextAgeIdentifierAsInteger = Integer.parseInt(ageIdentifier) - 49;
-            nextAgeIdentifier = String.valueOf(nextAgeIdentifierAsInteger);
+                int nextAgeIdentifierAsInteger = Integer.parseInt(ageIdentifier) - 49;
+                nextAgeIdentifier = String.valueOf(nextAgeIdentifierAsInteger);
 
+            }
+            return nextAgeIdentifier;
+
+        } else {
+            throw new AgeIdentifierIncorrectFormatException("Age identifier must be a two digit positive integer");
         }
-        return nextAgeIdentifier;
-    }
 
+    }
 }

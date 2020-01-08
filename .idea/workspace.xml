@@ -92,6 +92,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberPlateIdentifierTest.age_identifier_throws_exception_if_non_numeric_entered" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Number-Plate-Exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.numberPlateIdentifier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.numberPlateIdentifier" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.numberPlateIdentifier.NumberPlateIdentifierTest" />
+      <option name="METHOD_NAME" value="age_identifier_throws_exception_if_non_numeric_entered" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumberPlateIdentifierTest.age_identifier_throws_exception_if_number_greater_than_100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Number-Plate-Exercise" />
       <extension name="coverage">
@@ -108,29 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberPlateIdentifierTest.age_identifier_throws_exception_if_number_negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Number-Plate-Exercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qa.numberPlateIdentifier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qa.numberPlateIdentifier" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.numberPlateIdentifier.NumberPlateIdentifierTest" />
-      <option name="METHOD_NAME" value="age_identifier_throws_exception_if_number_negative" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.NumberPlateIdentifierTest" />
+        <item itemvalue="JUnit.NumberPlateIdentifierTest.age_identifier_throws_exception_if_non_numeric_entered" />
         <item itemvalue="JUnit.NumberPlateIdentifierTest.age_identifier_changes_from_september_to_march" />
         <item itemvalue="JUnit.NumberPlateIdentifierTest.age_identifier_changes_from_march_to_september_of_same_year" />
         <item itemvalue="JUnit.NumberPlateIdentifierTest.age_identifier_throws_exception_if_number_greater_than_100" />
-        <item itemvalue="JUnit.NumberPlateIdentifierTest.age_identifier_throws_exception_if_number_negative" />
       </list>
     </recent_temporary>
   </component>
@@ -172,22 +172,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="370" y="240" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578489245389" />
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1578493068501">
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1578493844659">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578493068501" />
-    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1578493068501">
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578493844659" />
+    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1578493844659">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578493068501" />
-    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1578493068501">
+    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578493844659" />
+    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1578493844659">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578493068501" />
-    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1578493068501">
+    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578493844659" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1578493844659">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578493068501" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578493844659" />
     <state width="1237" height="325" key="GridCell.Tab.1.bottom" timestamp="1578490151024">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
