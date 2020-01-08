@@ -8,8 +8,9 @@ public class AgeIdentifier {
     }
 
     public int getAgeIdentifier() throws AgeIdentifierIncorrectFormatException {
-        if (ageIdentifier >= 100) {
-            throw new AgeIdentifierIncorrectFormatException("Age identifier may only contain two digits");
+        String temp = Integer.toString(ageIdentifier);
+        if (!(temp.length() == 2)) {
+            throw new AgeIdentifierIncorrectFormatException("Age identifier must be exactly two digits");
         }
         return ageIdentifier;
     }

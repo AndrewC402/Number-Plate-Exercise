@@ -14,4 +14,14 @@ public class NumberPlateIdentifierTest {
         //assert
         assertThrows(AgeIdentifierIncorrectFormatException.class, () -> cut.getAgeIdentifier());
     }
+
+    @Test
+    public void age_identifier_throws_exception_if_number_contains_more_than_2_digits() {
+        //arrange
+        int ageIdentifier = 004;
+        AgeIdentifier cut = new AgeIdentifier(ageIdentifier);
+
+        //assert
+        assertThrows(AgeIdentifierIncorrectFormatException.class, () -> cut.getAgeIdentifier());
+    }
 }
