@@ -12,7 +12,7 @@ public class NumberPlateIdentifierTest {
         AgeIdentifier cut = new AgeIdentifier(ageIdentifier);
 
         //assert
-        assertThrows(AgeIdentifierIncorrectFormatException.class, () -> cut.getAgeIdentifier());
+        assertThrows(AgeIdentifierIncorrectFormatException.class, () -> cut.getNextAgeIdentifier(ageIdentifier));
     }
 
     @Test
@@ -22,7 +22,7 @@ public class NumberPlateIdentifierTest {
         AgeIdentifier cut = new AgeIdentifier(ageIdentifier);
 
         //assert
-        assertThrows(AgeIdentifierIncorrectFormatException.class, () -> cut.getAgeIdentifier());
+        assertThrows(AgeIdentifierIncorrectFormatException.class, () -> cut.getNextAgeIdentifier(ageIdentifier));
     }
 
     @Test
@@ -32,7 +32,7 @@ public class NumberPlateIdentifierTest {
         AgeIdentifier cut = new AgeIdentifier(ageIdentifier);
 
         //assert
-        assertThrows(AgeIdentifierIncorrectFormatException.class, () -> cut.getAgeIdentifier());
+        assertThrows(AgeIdentifierIncorrectFormatException.class, () -> cut.getNextAgeIdentifier(ageIdentifier));
     }
     @Test
     public void age_identifier_changes_from_march_to_september_of_same_year() throws AgeIdentifierIncorrectFormatException {
@@ -40,6 +40,20 @@ public class NumberPlateIdentifierTest {
         String ageIdentifier = "02";
         AgeIdentifier cut = new AgeIdentifier(ageIdentifier);
         String expectedResult = "52";
+
+        //act
+        String actualResult = cut.getNextAgeIdentifier(ageIdentifier);
+
+        //assert
+        assertEquals(expectedResult,actualResult);
+    }
+
+    @Test
+    public void age_identifier_changes_from_september_to_march() throws AgeIdentifierIncorrectFormatException {
+        //arrange
+        String ageIdentifier = "59";
+        AgeIdentifier cut = new AgeIdentifier(ageIdentifier);
+        String expectedResult = "10";
 
         //act
         String actualResult = cut.getNextAgeIdentifier(ageIdentifier);

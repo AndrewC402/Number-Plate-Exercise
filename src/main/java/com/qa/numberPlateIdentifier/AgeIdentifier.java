@@ -7,18 +7,24 @@ public class AgeIdentifier {
         this.ageIdentifier = ageIdentifier;
     }
 
-    public String getAgeIdentifier() throws AgeIdentifierIncorrectFormatException {
-        int temp = Integer.parseInt(ageIdentifier);
-        if (!(ageIdentifier.length() == 2) || temp < 0) {
+    public String getNextAgeIdentifier(String ageIdentifier) throws AgeIdentifierIncorrectFormatException {
+        String nextAgeIdentifier = "";
+
+        if (!(ageIdentifier.length() == 2) || Integer.parseInt(ageIdentifier) < 0) {
             throw new AgeIdentifierIncorrectFormatException("Age identifier must be exactly two digits");
+
+        } else if (Integer.parseInt(ageIdentifier) < 49) {
+
+            int nextAgeIdentifierAsInteger = Integer.parseInt(ageIdentifier) + 50;
+            nextAgeIdentifier = String.valueOf(nextAgeIdentifierAsInteger);
+
+        } else if (Integer.parseInt(ageIdentifier) > 50) {
+
+            int nextAgeIdentifierAsInteger = Integer.parseInt(ageIdentifier) - 49;
+            nextAgeIdentifier = String.valueOf(nextAgeIdentifierAsInteger);
+
         }
-        return ageIdentifier;
+        return nextAgeIdentifier;
     }
 
-    public String getNextAgeIdentifier(String ageIdentifier) {
-        int nexAgeIdentifierAsInteger = Integer.parseInt(ageIdentifier) + 50;
-        String nexAgeIdentifier = String.valueOf(nexAgeIdentifierAsInteger);
-
-        return nexAgeIdentifier;
-    }
 }
