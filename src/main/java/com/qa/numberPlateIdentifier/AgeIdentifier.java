@@ -9,7 +9,7 @@ public class AgeIdentifier {
 
     public int getAgeIdentifier() throws AgeIdentifierIncorrectFormatException {
         String temp = Integer.toString(ageIdentifier);
-        if (!(temp.length() == 2)) {
+        if (!(temp.length() == 2) || ageIdentifier < 0) {
             throw new AgeIdentifierIncorrectFormatException("Age identifier must be exactly two digits");
         }
         return ageIdentifier;

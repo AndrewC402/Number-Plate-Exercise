@@ -24,4 +24,14 @@ public class NumberPlateIdentifierTest {
         //assert
         assertThrows(AgeIdentifierIncorrectFormatException.class, () -> cut.getAgeIdentifier());
     }
+
+    @Test
+    public void age_identifier_throws_exception_if_number_negative() {
+        //arrange
+        int ageIdentifier = -05;
+        AgeIdentifier cut = new AgeIdentifier(ageIdentifier);
+
+        //assert
+        assertThrows(AgeIdentifierIncorrectFormatException.class, () -> cut.getAgeIdentifier());
+    }
 }
