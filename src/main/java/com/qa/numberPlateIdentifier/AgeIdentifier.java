@@ -14,4 +14,11 @@ public class AgeIdentifier {
         }
         return ageIdentifier;
     }
+
+    public String getNextAgeIdentifier(String ageIdentifier) {
+        int nexAgeIdentifierAsInteger = Integer.parseInt(ageIdentifier) + 50;
+        String nexAgeIdentifier = String.valueOf(nexAgeIdentifierAsInteger);
+
+        return nexAgeIdentifier;
+    }
 }
